@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liang.tind.flipboardicondemo.MainActivity">
+
+    <com.liang.tind.flipboardicondemo.FlipboardIconView
+        android:id="@+id/flipborad_icon_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:background_bitmap="@drawable/maps"
+        android:padding="10dp"
+        app:duration_degree_y="800"
+        app:target_degree_y="45"
+        app:duration_degree_z="2000"/>
+
+</LinearLayout>

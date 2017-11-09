@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlipboardIconView">
+        <attr name="background_bitmap" format="reference"/>
+        <attr name="target_degree_y" format="integer"/>
+        <attr name="duration_degree_y" format="integer"/>
+        <attr name="duration_degree_z" format="integer"/>
+    </declare-styleable>
+</resources>
